@@ -1,4 +1,5 @@
 import 'package:flutter_basics/layouts/column.dart';
+import 'package:flutter_basics/layouts/row.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -11,7 +12,7 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
         return const MaterialApp(
       home: Scaffold(
-        body: ColumnExample(),
+        body: RowExample(),
     ),);
 
   }
